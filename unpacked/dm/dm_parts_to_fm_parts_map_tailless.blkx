@@ -721,6 +721,82 @@
     ]
   },
   {
+    "radiatorsAutoConfiguration": [
+      {
+        "engine": "engine1_dm"
+      },
+      {
+        "engine": "engine2_dm"
+      },
+      {
+        "engine": "engine3_dm"
+      },
+      {
+        "engine": "engine4_dm"
+      },
+      {
+        "engine": "engine5_dm"
+      },
+      {
+        "engine": "engine6_dm"
+      },
+      {
+        "oil": "oil1_dm"
+      },
+      {
+        "oil": "oil2_dm"
+      },
+      {
+        "oil": "oil3_dm"
+      },
+      {
+        "oil": "oil4_dm"
+      },
+      {
+        "oil": "oil5_dm"
+      },
+      {
+        "oil": "oil6_dm"
+      },
+      {
+        "oil": "oil7_dm"
+      },
+      {
+        "oil": "oil8_dm"
+      },
+      {
+        "oil": "oil9_dm"
+      },
+      {
+        "oil": "oil10_dm"
+      },
+      {
+        "oil": "oil11_dm"
+      },
+      {
+        "oil": "oil12_dm"
+      },
+      {
+        "water": "water1_dm"
+      },
+      {
+        "water": "water2_dm"
+      },
+      {
+        "water": "water3_dm"
+      },
+      {
+        "water": "water4_dm"
+      },
+      {
+        "water": "water5_dm"
+      },
+      {
+        "water": "water6_dm"
+      }
+    ]
+  },
+  {
     "fm": [
       {
         "fm": "aileron_control_l"
@@ -759,18 +835,42 @@
     ]
   },
   {
-    "fm": {
-      "fm": "elevator_control_l",
-      "dm": "tailcontrol_dm",
-      "cutHealth": 0.0
-    }
+    "fm": [
+      {
+        "fm": "elevator_control_l"
+      },
+      {
+        "dm": "wingcontrol_dm"
+      },
+      {
+        "dm": "wingcontrol_l_dm"
+      },
+      {
+        "type": "min"
+      },
+      {
+        "cutHealth": 0.0
+      }
+    ]
   },
   {
-    "fm": {
-      "fm": "elevator_control_r",
-      "dm": "tailcontrol_dm",
-      "cutHealth": 0.0
-    }
+    "fm": [
+      {
+        "fm": "elevator_control_r"
+      },
+      {
+        "dm": "wingcontrol_dm"
+      },
+      {
+        "dm": "wingcontrol_r_dm"
+      },
+      {
+        "type": "min"
+      },
+      {
+        "cutHealth": 0.0
+      }
+    ]
   },
   {
     "fm": {
@@ -778,53 +878,5 @@
       "dm": "tailcontrol_dm",
       "cutHealth": 0.0
     }
-  },
-  {
-    "fm": [
-      {
-        "fm": "engine_oil1"
-      },
-      {
-        "dm": "oil1_dm"
-      },
-      {
-        "dm": "oil4_dm"
-      },
-      {
-        "type": "min"
-      }
-    ]
-  },
-  {
-    "fm": [
-      {
-        "fm": "engine_oil2"
-      },
-      {
-        "dm": "oil2_dm"
-      },
-      {
-        "dm": "oil5_dm"
-      },
-      {
-        "type": "min"
-      }
-    ]
-  },
-  {
-    "fm": [
-      {
-        "fm": "engine_oil3"
-      },
-      {
-        "dm": "oil3_dm"
-      },
-      {
-        "dm": "oil6_dm"
-      },
-      {
-        "type": "min"
-      }
-    ]
   }
 ]

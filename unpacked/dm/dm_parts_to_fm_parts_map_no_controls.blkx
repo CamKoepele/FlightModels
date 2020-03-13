@@ -721,109 +721,78 @@
     ]
   },
   {
-    "fm": [
+    "radiatorsAutoConfiguration": [
       {
-        "fm": "aileron_control_l"
+        "engine": "engine1_dm"
       },
       {
-        "dm": "wingcontrol_dm"
+        "engine": "engine2_dm"
       },
       {
-        "dm": "wingcontrol_l_dm"
+        "engine": "engine3_dm"
       },
       {
-        "type": "min"
+        "engine": "engine4_dm"
       },
       {
-        "cutHealth": 0.0
-      }
-    ]
-  },
-  {
-    "fm": [
-      {
-        "fm": "aileron_control_r"
+        "engine": "engine5_dm"
       },
       {
-        "dm": "wingcontrol_dm"
+        "engine": "engine6_dm"
       },
       {
-        "dm": "wingcontrol_r_dm"
+        "oil": "oil1_dm"
       },
       {
-        "type": "min"
+        "oil": "oil2_dm"
       },
       {
-        "cutHealth": 0.0
-      }
-    ]
-  },
-  {
-    "fm": {
-      "fm": "elevator_control_l",
-      "dm": "tailcontrol_dm",
-      "cutHealth": 0.0
-    }
-  },
-  {
-    "fm": {
-      "fm": "elevator_control_r",
-      "dm": "tailcontrol_dm",
-      "cutHealth": 0.0
-    }
-  },
-  {
-    "fm": {
-      "fm": "rudder_control",
-      "dm": "tailcontrol_dm",
-      "cutHealth": 0.0
-    }
-  },
-  {
-    "fm": [
-      {
-        "fm": "engine_oil1"
+        "oil": "oil3_dm"
       },
       {
-        "dm": "oil1_dm"
+        "oil": "oil4_dm"
       },
       {
-        "dm": "oil4_dm"
+        "oil": "oil5_dm"
       },
       {
-        "type": "min"
-      }
-    ]
-  },
-  {
-    "fm": [
-      {
-        "fm": "engine_oil2"
+        "oil": "oil6_dm"
       },
       {
-        "dm": "oil2_dm"
+        "oil": "oil7_dm"
       },
       {
-        "dm": "oil5_dm"
+        "oil": "oil8_dm"
       },
       {
-        "type": "min"
-      }
-    ]
-  },
-  {
-    "fm": [
-      {
-        "fm": "engine_oil3"
+        "oil": "oil9_dm"
       },
       {
-        "dm": "oil3_dm"
+        "oil": "oil10_dm"
       },
       {
-        "dm": "oil6_dm"
+        "oil": "oil11_dm"
       },
       {
-        "type": "min"
+        "oil": "oil12_dm"
+      },
+      {
+        "water": "water1_dm"
+      },
+      {
+        "water": "water2_dm"
+      },
+      {
+        "water": "water3_dm"
+      },
+      {
+        "water": "water4_dm"
+      },
+      {
+        "water": "water5_dm"
+      },
+      {
+        "water": "water6_dm"
       }
     ]
   }
